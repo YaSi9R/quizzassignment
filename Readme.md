@@ -4,6 +4,19 @@ A modern, responsive quiz application built with React and Next.js that fetches 
 
 Live-Link : [https://quizassignment.vercel.app/]
 
+### Installation
+\`\`\`bash
+1.# Clone the repository
+git clone [repository-url]
+
+2.# Install dependencies
+npm install
+
+3.# Start development server
+npm run dev
+\`\`\`
+
+
 ##  Features
 
 ### Core Functionality
@@ -130,6 +143,7 @@ Subtle animations enhance user experience without being distracting:
 - **Hover Effects**: Interactive feedback on buttons and options
 - **Progress Animation**: Smooth progress bar updates
 
+
 ##  Setup and Usage
 
 ### Prerequisites
@@ -138,13 +152,13 @@ Subtle animations enhance user experience without being distracting:
 
 ### Installation
 \`\`\`bash
-# Clone the repository
+1.# Clone the repository
 git clone [repository-url]
 
-# Install dependencies
+2.# Install dependencies
 npm install
 
-# Start development server
+3.# Start development server
 npm run dev
 \`\`\`
 
