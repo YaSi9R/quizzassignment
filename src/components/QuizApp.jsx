@@ -470,14 +470,22 @@ export function QuizApp({ onBack }) {
                             })}
                         </div>
 
-                        <div className="flex gap-4 justify-center mt-4">
-                            <Button onClick={restartQuiz} className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-lg">
-                                <RotateIcon /> Take Quiz Again
-                            </Button>
-                            <Button onClick={() => setShowSettings(true)} variant="outline" className="px-6 py-2 rounded-lg border border-indigo-600 text-indigo-600 hover:bg-indigo-50">
-                                Settings
-                            </Button>
-                        </div>
+                       <div className="flex flex-col sm:flex-row gap-3 justify-center mt-4">
+  <Button
+    onClick={restartQuiz}
+    className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-lg text-sm sm:text-base whitespace-nowrap"
+  >
+    <RotateIcon /> Take Quiz Again
+  </Button>
+  <Button
+    onClick={() => setShowSettings(true)}
+    variant="outline"
+    className="px-4 sm:px-6 py-2 sm:py-2.5 rounded-lg border border-indigo-600 text-indigo-600 hover:bg-indigo-50 text-sm sm:text-base whitespace-nowrap"
+  >
+    Settings
+  </Button>
+</div>
+
                     </CardContent>
                 </Card>
             </div>
